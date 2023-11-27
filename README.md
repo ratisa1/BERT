@@ -40,12 +40,12 @@ Hay 2 tamaños del modelo:
     * Cantidad de capas: 12 
     * Longitud de estados ocultos: 768
     * Cantidad de cabezales de atención: 12 
-    * Parámetros totales=110 M
+    * Parámetros totales: 110 M
 2. BERT LARGE:  
     * Cantidad de capas: 24
     * Longitud de estados ocultos: 1024
     * Cantidad de cabezales de atención: 16 
-    * Parámetros totales=340 M  
+    * Parámetros totales: 340 M  
     
 La elección entre BERT BASE y BERT LARGE dependerá de la tarea específica, los recursos computacionales disponibles y el equilibrio entre rendimiento y eficiencia que se busque. En general, BERT BASE es más eficiente en términos de recursos, mientras que BERT LARGE puede proporcionar beneficios adicionales en tareas más complejas cuando los recursos lo permiten. 
 ### Input Embedding 
