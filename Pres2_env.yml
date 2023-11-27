@@ -1,0 +1,12 @@
+name: pres2_env
+channels:
+  - conda-forge
+dependencies:
+  - ipykernel
+  - python==3.10
+  - pip
+  - pip:
+    - tensorflow[and-cuda]==2.14
+    - keras-core==0.1.7
+    - keras_nlp==0.6.3
+   
