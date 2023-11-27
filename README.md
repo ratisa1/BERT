@@ -60,4 +60,13 @@ Se calcula 3 embeddings:
 
 * Embedding de Posición : Se encarga de representar la posición relativa de los tokens en el texto. 
 
-Luego se suman estos 3 tipos de embeddings para cada token 
+Luego se suman estos 3 tipos de embeddings para cada token  
+![.](image/def.drawio.png) 
+* H=ReLU(XW_1 + b_1) , W_1 matriz de pesos de la capa feed-forward y b_1 sesgos especificos de la capa feed-forward
+
+OBS:  
+1. La segunda proyección lineal que se realiza, a cada vector de token, por separado,  se le aplica 2 proyecciones lineales y una operación no lineal ReLU entre ellas. 
+
+2. Al aplicar la proyección lineal se modifica sus dimensiones a 3072, antes de la operación no lineal ReLU  
+
+3. Con la segunda proyección lineal se vuelve al tamaño de 768
