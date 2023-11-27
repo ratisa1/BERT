@@ -49,7 +49,7 @@ Hay 2 tamaños del modelo:
     
 La elección entre BERT BASE y BERT LARGE dependerá de la tarea específica, los recursos computacionales disponibles y el equilibrio entre rendimiento y eficiencia que se busque. En general, BERT BASE es más eficiente en términos de recursos, mientras que BERT LARGE puede proporcionar beneficios adicionales en tareas más complejas cuando los recursos lo permiten. 
 ### Input Embedding 
-![https://github.com/ratisa1/BERT/tree/master/image/aa.png](attachment:https://github.com/ratisa1/BERT/tree/master/image/aa.png)
+![aa.png](attachment:aa.png)
 
 BERT utiliza una técnica de tokenización llamada WordPiece Tokenization. 
  
