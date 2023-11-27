@@ -48,7 +48,9 @@ Hay 2 tamaños del modelo:
     * Parámetros totales=340 M  
     
 La elección entre BERT BASE y BERT LARGE dependerá de la tarea específica, los recursos computacionales disponibles y el equilibrio entre rendimiento y eficiencia que se busque. En general, BERT BASE es más eficiente en términos de recursos, mientras que BERT LARGE puede proporcionar beneficios adicionales en tareas más complejas cuando los recursos lo permiten. 
-### Input Embedding
+### Input Embedding 
+![.](C:\Users\Usuario\Desktop\BERTEXP\image\aa.png)
+
 BERT utiliza una técnica de tokenización llamada WordPiece Tokenization. 
  
 Se calcula 3 embeddings: 
